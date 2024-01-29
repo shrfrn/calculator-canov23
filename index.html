@@ -8,19 +8,19 @@
         <title>calculator</title>
     </head>
     <body>
-        
+
         <h1>Simple Calculator</h1>
 
         <table>
             <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
+                <td onclick="onNumClick(this)">1</td>
+                <td onclick="onNumClick(this)">2</td>
+                <td onclick="onNumClick(this)">3</td>
+                <td onclick="onNumClick(this)">4</td>
             </tr>
             <tr>
-                <td colspan="2">+</td>
-                <td colspan="2">=</td>
+                <td onclick="onOperatorClick(this)" colspan="2">+</td>
+                <td onclick="onCalc()" colspan="2">=</td>
             </tr>
         </table>
         <script src="js/calculator.js"></script>
