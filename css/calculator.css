@@ -14,3 +14,10 @@ table td {
     border: 1px solid lightgrey;
     cursor: pointer;
 }
+
+h1 {
+    font-family: monospace;
+    font-size: 45px;
+    font-weight: lighter;
+    text-align: center;
+}
